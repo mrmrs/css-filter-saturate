@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "filter-saturate"
   ],
   "css-filter-saturate": {
     "type": "git",
