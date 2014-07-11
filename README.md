@@ -120,7 +120,7 @@ or download the css on github and include in your project.
 .saturate-99 {  filter: saturate(99%); }
 .saturate-100 {  filter: saturate(100%); }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .saturate-1-ns {  filter: saturate(1%); }
   .saturate-2-ns {  filter: saturate(2%); }
   .saturate-3-ns {  filter: saturate(3%); }
@@ -223,7 +223,7 @@ or download the css on github and include in your project.
   .saturate-100-ns {  filter: saturate(100%); }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .saturate-1-m {  filter: saturate(1%); }
   .saturate-2-m {  filter: saturate(2%); }
   .saturate-3-m {  filter: saturate(3%); }
@@ -326,7 +326,7 @@ or download the css on github and include in your project.
   .saturate-100-m {  filter: saturate(100%); }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .saturate-1-l {  filter: saturate(1%); }
   .saturate-2-l {  filter: saturate(2%); }
   .saturate-3-l {  filter: saturate(3%); }
