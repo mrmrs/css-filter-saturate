@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-filter-saturate)
 ## File Size
 
 17K filter-saturate.css
-14K filter-saturate.min.css
+14K filter-saturate.min.css 
+1minified and gzipped
 
 ## The Code
 ```
