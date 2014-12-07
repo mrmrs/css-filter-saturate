@@ -1,7 +1,7 @@
 {
   "name": "css-filter-saturate",
   "style": "filter-saturate.css",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "homepage": "http://github.com/mrmrs/css-filter-saturate",
   "description": "Css module of single purpose classes for filter saturate",
   "keywords": [
