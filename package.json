@@ -1,7 +1,7 @@
 {
   "name": "css-filter-saturate",
   "style": "filter-saturate.css",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "homepage": "http://github.com/mrmrs/css-filter-saturate",
   "description": "Css module of single purpose classes for filter saturate",
   "keywords": [
@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^1.0.2"
+    "tachyons-cli": "^1.0.4"
   },
   "scripts": {
     "start": "tachyons src/css-filter-saturate.css > css/css-filter-saturate.css && tachyons src/css-filter-saturate.css --minify > css/css-filter-saturate.min.css && tachyons src/css-filter-saturate.css --generate-docs --package=../../package.json > readme.md"
