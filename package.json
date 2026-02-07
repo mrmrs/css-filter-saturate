@@ -30,9 +30,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^1.3.0"
   },
   "scripts": {
-    "start": "tachyons src/css-filter-saturate.css > css/css-filter-saturate.css && tachyons src/css-filter-saturate.css --minify > css/css-filter-saturate.min.css && tachyons src/css-filter-saturate.css --generate-docs --package=../../package.json > readme.md"
   }
 }
