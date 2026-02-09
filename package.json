@@ -1,38 +1,44 @@
 {
   "name": "css-filter-saturate",
-  "style": "filter-saturate.css",
-  "version": "1.0.8",
-  "homepage": "http://github.com/mrmrs/css-filter-saturate",
-  "description": "Css module of single purpose classes for filter saturate",
+  "version": "2.0.0",
+  "description": "Functional CSS for filter-saturate",
+  "style": "dist/filter-saturate.css",
+  "main": "dist/filter-saturate.css",
+  "exports": {
+    ".": "./dist/filter-saturate.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "filter-saturate"
+    "filter-saturate",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-filter-saturate": {
+  "homepage": "https://github.com/mrmrs/css-filter-saturate",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-filter-saturate.git"
+    "url": "https://github.com/mrmrs/css-filter-saturate.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-filter-saturate/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-filter-saturate/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
